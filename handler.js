@@ -1,6 +1,6 @@
-module.exports.hello = async (event) => {
+module.exports.hello = async () => {
   return {
     statusCode: 200,
-    body: `I'm cool!`
+    body: `Hello World!`
   }
 }
