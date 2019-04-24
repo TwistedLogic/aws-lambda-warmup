@@ -18,6 +18,10 @@ provider:
 functions:
   hello:
     handler: handler.hello
+    package:
+    package:
+      - .git/**
+      - docs/**
     warmup:
       enabled: true
       concurrency: 5
